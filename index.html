@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="claro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav id="navbar">
+          <ul id="ulnav">
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <button class="switchClaro Active" id="switch">
+              <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+              </svg>              
+              </span>
+              <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+              </svg>
+              </span>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="proyectos">
+          <h2>Proyectos</h2>
+          <ul>
+            <li>
+              <a href="https://radex13.github.io/lista-de-tareas/">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3 id="textopro1">Proyecto 1 (Lista de tareas)</h3>
+              </a>
+            </li>
+            <li>
+              <a href="https://radex13.github.io">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3 id="textopro2">Proyecto 2 (Agenda de contactos)</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="sobre-mi">
+            <div class="contenedor">
+              <h2>Sobre Mí</h2>
+              <div class="contenido">
+                <img src="icono.jpg" alt="Foto">
+                <p>Hola, mi nombre es Ezequiel y soy un programador con experiencia en html, css y javascript. Me encanta crear soluciones tecnológicas que mejoren la vida de las personas.</p>
+                <p>En mi tiempo libre me gusta seguir aprendiendo y explorando nuevas tecnologías, así como también colaborar en proyectos de código abierto.</p>
+                <p>Si estás buscando un programador motivado y comprometido, no dudes en ponerte en contacto conmigo.</p>
+              </div>
+            </div>
+          </section>
+          
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para contactarme, puedes enviar un correo electrónico a <a id="links" href="mailto:ezequielvv103@gmail.com">ezequielvv103@gmail.com</a> o en Twitter <a id="links2" href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">@Mi Twitter</a>.</p>
+          </section>
+          
+      </main>
+      <footer>
+        <p>&copy; 2023 Mi Portafolio</p>
+      </footer>
+      <script src="index.js"></script>
+</body>
+</html>

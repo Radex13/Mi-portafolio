@@ -1,0 +1,87 @@
+.switchClaro {
+    background-color: #3494b1;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switchClaro span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #fff;
+    background: none;
+}
+
+.switchClaro::after {
+    display: block;
+    background: #fffbf5;
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 1.5px 1.5px rgba(0, 0, 0, 0.5);
+    content: "";
+}
+
+.switchClaro.active {
+    background: #fdd384;
+}
+
+.switchClaro.active::after {
+    left: unset;
+    right: 0;
+}
+
+body.claro{
+    background: #e2e8f0;
+}
+
+
+header.claro{
+    background-color: #2430ab;
+
+}
+
+nav.claro {
+    color: #000;
+}
+
+main.claro{
+    color: #000;
+}
+
+h3.claro{
+    color: #000;
+}
+
+#links.claro{
+    color: #000;
+}
+
+#links2.claro{
+    color: #000;
+}
+
+#textopro1.claro{
+    color: #000;
+}
+
+#textopro2.claro{
+    color: #000;
+}
+
+footer.claro{
+    background-color: #2430ab;
+}
+
